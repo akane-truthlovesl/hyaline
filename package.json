@@ -1,0 +1,13 @@
+{
+  "name": "hyaline",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Hyaline — a formless-matter game. Pass 1: a particle + transient-bond gel engine and a minimal loop.",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node tests/physics.test.mjs",
+    "play": "node tests/play.mjs",
+    "lab": "node tests/lab.mjs"
+  }
+}
